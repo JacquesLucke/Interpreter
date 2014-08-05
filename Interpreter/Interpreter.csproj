@@ -43,6 +43,11 @@
   <ItemGroup>
     <Compile Include="Code.cs" />
     <Compile Include="CodeLoader.cs" />
+    <Compile Include="Elements\SemicolonElement.cs" />
+    <Compile Include="Elements\IElement.cs" />
+    <Compile Include="Elements\EqualElement.cs" />
+    <Compile Include="Elements\NumberElement.cs" />
+    <Compile Include="Elements\WordElement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
