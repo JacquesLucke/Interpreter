@@ -10,6 +10,12 @@ namespace Interpreter
     {
         string code;
 
+        public static Code FromFile(string fileName)
+        {
+            CodeLoader cl = new CodeLoader(fileName);
+            return new Code(cl.Load());
+        }
+
         public Code(string codeText)
         {
             this.code = SimplifyCodeText(codeText);
