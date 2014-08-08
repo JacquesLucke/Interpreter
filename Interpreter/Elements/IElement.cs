@@ -1,6 +1,6 @@
 ﻿namespace Interpreter.Elements
 {
-    interface IElement
+    public interface IElement
     {
     }
 }

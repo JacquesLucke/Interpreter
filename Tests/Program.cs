@@ -14,6 +14,7 @@ namespace Tests
 
             List<ITest> tests = new List<ITest>();
             tests.Add(new SimplifyCodeText());
+            tests.Add(new StringToElements());
 
             bool allCorrect = true;
             foreach(ITest test in tests)
